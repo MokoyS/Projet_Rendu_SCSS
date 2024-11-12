@@ -1,0 +1,463 @@
+.header {
+  background-color: #fceed5;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  padding: 0 10vw;
+}
+.header__logo {
+  height: 60px;
+  margin-right: 120px;
+}
+.header__logo-image {
+  height: 100%;
+}
+.header__nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.header__nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  font-weight: 700;
+}
+.header__nav-link {
+  color: #003459;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.header__nav-link:hover {
+  color: #00A7E7;
+}
+.header__section {
+  display: flex;
+  margin-left: auto;
+}
+.header__section-search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 25px;
+  padding-right: 40px !important;
+  margin-left: 110px;
+}
+.header__search-icon {
+  color: #667479;
+  height: 20px;
+  padding: 0 10px;
+}
+.header__search-input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.header__search-input::placeholder {
+  font-size: 700;
+}
+.header__section-login {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.header__login-button {
+  background-color: #003459;
+  color: white;
+  padding: 15px 75px;
+  border-radius: 25px;
+  font-weight: 400;
+  transition: background-color 0.3s;
+}
+.header__login-button:hover {
+  background-color: #00A7E7;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.containerm {
+  margin: 0 10vw;
+}
+
+.content__home {
+  height: auto;
+  background-color: #fceed5;
+  display: flex;
+  padding-top: 60px;
+}
+.content__home-left {
+  height: auto;
+  width: auto;
+  margin-top: 80px;
+}
+.content__home-text1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #003459;
+  margin-bottom: 1rem;
+}
+.content__home-text2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #003459;
+  margin-bottom: 1rem;
+}
+.content__home-text3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #667479;
+  margin-bottom: 1rem;
+  max-width: 623px;
+}
+.content__home-right {
+  height: 600px;
+  width: 632px;
+}
+.content__home-right img {
+  height: 100%;
+}
+.content__home-buttons {
+  display: flex;
+  justify-content: start;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 20px;
+}
+.content__home-button1 {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: 2px solid #003459;
+  color: #003459;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content__home-button2 {
+  color: #fceed5;
+  padding: 15px 45px;
+  border-radius: 25px;
+  background-color: #003459;
+  cursor: pointer;
+}
+
+.content__pets {
+  padding-top: 80px;
+}
+.content__pets-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__pets-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content__pets-text1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+.content__pets-text2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #003459;
+}
+.content__pets-button {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: 2px solid #003459;
+  color: #003459;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content__pets-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+  width: 100%;
+}
+.content__pets-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content__pets-img {
+  width: auto;
+  border-radius: 15px;
+}
+.content__pets-card-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.content__pets-card-infos {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content__pets-card-infos p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #667479;
+}
+.content__pets-card-infos span {
+  height: 4px;
+  width: 4px;
+  background-color: #667479;
+  border-radius: 25px;
+  margin: 0 10px;
+}
+.content__pets-price {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.content__card {
+  height: 400px;
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 10vw;
+  margin-top: 80px;
+  border-radius: 15px;
+  background-color: #fceed5;
+}
+.content__card-image {
+  height: 100%;
+  border-radius: 15px;
+}
+.content__card-image img {
+  height: 100%;
+  border-radius: 15px;
+}
+.content__card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+.content__card-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+.content__card-text1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #003459;
+  margin-bottom: 0.3rem;
+  text-align: end;
+}
+.content__card-text2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #003459;
+  margin-bottom: 1rem;
+  text-align: end;
+}
+.content__card-text3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #667479;
+  margin-bottom: 1rem;
+  max-width: 423px;
+  text-align: end;
+}
+.content__card-button1 {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: 2px solid #003459;
+  color: #003459;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content__card-button2 {
+  color: #fceed5;
+  padding: 15px 45px;
+  border-radius: 25px;
+  background-color: #003459;
+  cursor: pointer;
+}
+.content__card-btn {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.content__know {
+  padding-top: 60px;
+}
+.content__know-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: auto;
+  gap: 20px;
+  margin-top: 40px;
+}
+.content__know-card {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0px 2.39px 16.76px -1.2px rgba(0, 0, 0, 0.0784313725);
+}
+.content__know-image {
+  width: 100%;
+  border-radius: 15px;
+}
+.content__know-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.content__know-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.content__know-text1 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+  background-color: #00A7E7;
+  margin-bottom: 0.3rem;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+.content__know-text2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 1rem;
+}
+.content__know-text3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #667479;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #fceed5;
+  margin-top: 60px;
+  padding-top: 80px;
+}
+.footer__card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #003459;
+  border-radius: 15px;
+  padding: 60px 40px;
+  justify-content: space-between;
+  gap: 60px;
+}
+.footer__title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+.footer__mail {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.footer__mail-input {
+  width: 100%;
+  border: 1px solid #667479;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #667479;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.footer__mail-button {
+  color: #fceed5;
+  padding: 15px 45px;
+  border-radius: 25px;
+  background-color: #003459;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+  padding: 20px 30px;
+  display: flex;
+  width: 215px;
+  flex-wrap: none;
+  border-radius: 15px;
+  justify-content: center;
+}
+.footer__menu {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.225);
+}
+.footer__menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.footer__menu ul a {
+  color: black;
+}
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.footer__icons img {
+  height: 25px;
+  width: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #FDFDFD;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

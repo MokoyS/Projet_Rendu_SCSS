@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendu SASS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-image" src="media/logo.png" alt="Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Category</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="header__section">
+            <div class="header__section-search">
+                <img class="header__search-icon" src="media/search.svg" alt="">
+                <input type="text" class="header__search-input" placeholder="Search something here!">
+            </div>
+            <div class="header__section-login">
+                <a href="" class="header__login-button">Login</a>
+            </div>
+        </section>
+    </header>
+
+    <main class="content">
+        <section class="content__home container">
+            <div class="content__home-left">
+                <h1 class="content__home-text1">One More Friend</h1>
+                <h2 class="content__home-text2">Thousands More Fun!</h2>
+                <p class="content__home-text3">Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+                <div class="content__home-buttons">
+                    <a href="#" class="content__home-button1">View Intro</a>
+                    <a href="#" class="content__home-button2">Explore Now</a>
+                </div>
+                
+            </div>
+            <div class="content__home-right">
+                <img src="media/women-dog.png" alt="">
+            </div>
+        </section>
+        <section class="content__pets containerm">
+            <div class="content__pets-top">
+                <div class="content__pets-texts">
+                    <p class="content__pets-text1">What's new?</p>
+                    <p class="content__pets-text2">Take A Look Of Some Of Our Pets</p>
+                </div>
+                <a href="#" class="content__pets-button">View More</a>
+            </div>
+            <div class="content__pets-grid">
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog1.png" alt="">
+                    <p class="content__pets-card-name">MO231 - Pomeranian White</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog2.png" alt="">
+                    <p class="content__pets-card-name">MO502 - Poodle Tiny Yellow</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Female</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">3.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog3.png" alt="">
+                    <p class="content__pets-card-name">MO102 - Poodle Tiny Sepia</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog4.png" alt="">
+                    <p class="content__pets-card-name">MO512 - Alaskan Malamute Grey</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog5.png" alt="">
+                    <p class="content__pets-card-name">MO231 - Pembroke Corgi Cream</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog6.png" alt="">
+                    <p class="content__pets-card-name">MO502 - Pembroke Corgi Tricolor</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog7.png" alt="">
+                    <p class="content__pets-card-name">MO102 -  Pomeranian Grey</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+                <div class="content__pets-card">
+                    <img class="content__pets-img" src="media/dog8.png" alt="">
+                    <p class="content__pets-card-name">MO512 - Poodle Tiny Dairy Cow</p>
+                    <div class="content__pets-card-infos">
+                        <p class="content__pets-card-genre">Gene: <b>Male</b></p>
+                        <span></span>
+                        <p class="content__pets-card-age">Age : <b>02 months</b></p>
+                    </div>
+                    <p class="content__pets-price">6.900.000 VND</p>
+                </div>
+            </div>
+        </section>
+        <section class="content__card">
+            <div class="content__card-image">
+                <img src="media/women-dog2.png" alt="">
+            </div>
+            <div class="content__card-content">
+                <div class="content__card-text">
+                    <h1 class="content__card-text1">One More Friend</h1>
+                    <h2 class="content__card-text2">Thousands more fun!</h2>
+                    <p class="content__card-text3">Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+                </div>
+                <div class="content__card-btn">
+                    <a href="#" class="content__card-button1">View Intro</a>
+                    <a href="#" class="content__card-button2">Explore Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="content__know containerm">
+            <div class="content__pets-top">
+                <div class="content__pets-texts">
+                    <p class="content__pets-text1">You already know ?</p>
+                    <p class="content__pets-text2">Useful pet knowledge</p>
+                </div>
+                <a href="#" class="content__pets-button">View More</a>
+            </div>
+            <div class="content__know-grid">
+                <div class="content__know-card">
+                    <div class="content__know-image">
+                        <img src="media/dog9.png" alt="">
+                    </div>
+                    <div class="content__know-text">
+                        <p class="content__know-text1">Pet knowledge</p>
+                        <p class="content__know-text2">What is a Pomeranian? How to Identify Pomeranian Dogs</p>
+                        <p class="content__know-text3">Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance.</p>
+                    </div>
+                </div>
+                <div class="content__know-card">
+                    <div class="content__know-image">
+                        <img src="media/dog10.png" alt="">
+                    </div>
+                    <div class="content__know-text">
+                        <p class="content__know-text1">Pet knowledge</p>
+                        <p class="content__know-text2">Dog Diet You Need To Know</p>
+                        <p class="content__know-text3">Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance.</p>
+                    </div>
+                </div>
+                <div class="content__know-card">
+                    <div class="content__know-image">
+                        <img src="media/dog11.png" alt="">
+                    </div>
+                    <div class="content__know-text">
+                        <p class="content__know-text1">Pet knowledge</p>
+                        <p class="content__know-text2">Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively</p>
+                        <p class="content__know-text3">Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container ">
+        <div class="footer__card">
+            <h1 class="footer__title">Register now so you don't miss our programs</h1>
+            <div class="footer__mail">
+                <input type="text" class="footer__mail-input" placeholder="Enter your email">
+                <a href="#" class="footer__mail-button">Subcribe Now</a>
+            </div>
+        </div>
+        <div class="footer__menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="footer__icons">
+                <img src="media/facebook.svg" alt="">
+                <img src="media/twitter.svg" alt="">
+                <img src="media/instagram.svg" alt="">
+                <img src="media/youtube.svg" alt="">
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>© 2022 Monito. All rights reserved.</p>
+            <img src="media/logo.png" alt="">
+            <div class="footer__details">
+                <p>Terms of Service </p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
