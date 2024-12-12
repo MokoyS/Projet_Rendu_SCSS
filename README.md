@@ -1,4 +1,4 @@
-# Rendu SASS
+# Projet : S'exercer en SASS
 
 ## Nom Prenom
 
